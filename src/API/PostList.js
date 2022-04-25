@@ -26,6 +26,13 @@ class PostList extends Component {
         return(
         <div>
         <h1>LIst of Post</h1>
+       {
+           posts.map((post)=> (
+                <div key={post.id}>
+                {post.title}
+                </div>
+           ))
+       }
         </div>
         )
 
