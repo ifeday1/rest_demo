@@ -25,11 +25,11 @@ class PostList extends Component {
         const {posts} = this.state
         return(
         <div>
-        <h1>LIst of Post</h1>
+        <h1>List of Post</h1>
        {
            posts.map((post)=> (
                 <div key={post.id}>
-                {post.title}
+                
                 </div>
            ))
        }

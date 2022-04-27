@@ -1,0 +1,36 @@
+.form{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.text{
+    margin: 10px;
+}
+.input{
+    justify-items: center;
+    align-items: stretch;
+    margin-left: 10px;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+.button{
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    color:brown;
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+}
+button:hover{
+    background-color: green;
+    color: white;
+
+}
+
